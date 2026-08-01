@@ -1,0 +1,14 @@
+{
+  "repo": "players-health",
+  "feeds": [
+    {
+      "source": "https://playershealth.com/support",
+      "feed_url": "https://playershealth.com/support",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

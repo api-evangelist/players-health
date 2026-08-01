@@ -1,7 +1,29 @@
 aid: players-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/players-health.png
 name: Player's Health
-description: Player's Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Player's Health is an insurance and athlete-safety technology company founded in 2016
+  and based in Minneapolis, Minnesota, serving youth sports organizations, fitness
+  facilities, schools, and collegiate athletic programs. The platform combines specialty
+  insurance products (general liability, sexual abuse and molestation liability, accident
+  medical, directors and officers, equipment and property, cyber, and employee benefits)
+  with athlete-safety and risk-management tooling including coach credentialing and
+  background checks, injury and incident reporting, investigations, mental-health support,
+  and training. Player's Health operates login-gated web portals for claims, certificates
+  of insurance, and safety/compliance (SafetyHub) rather than a public developer API. It
+  is a Techstars-backed company surfaced through the API Evangelist network and profiled
+  here for discovery.
 url: https://raw.githubusercontent.com/api-evangelist/players-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Sports
+- Youth Sports
+- Athlete Safety
+- Risk Management
+- Compliance
+- Background Screening
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://playershealth.com/
+- type: Support
+  url: https://playershealth.com/support
+- type: Blog
+  url: https://playershealth.com/resources
+- type: SignUp
+  url: https://phquote.com/quote/apply
+- type: TermsOfService
+  url: https://playershealth.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://playershealth.com/privacy
+- type: DomainSecurity
+  url: security/players-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
